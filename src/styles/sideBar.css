@@ -1,0 +1,25 @@
+.scrollbar {
+    /* width: 200px;
+    height: 100vh;
+    overflow-y: scroll; */
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  .scrollbar.show-scrollbar {
+    scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+  }
+  
+  /* For Webkit browsers (Chrome, Safari) */
+  .scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .scrollbar.show-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.5);
+  }
+  
